@@ -1,7 +1,5 @@
 <template>
-  <main>
-    <h1 class="text-2xl">Bonjour</h1>
-  </main>
+  <main></main>
 </template>
 
 <script>
