@@ -1,11 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import AccueilView from '../views/AccueilView.vue'
+import Presentation from '../views/Page_presentation.vue'
+import PageJoueurs from '../views/Page_joueurs.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    { path: '/', name: 'Accueil', component: AccueilView },
-    // ici les autre routes
+    { path: '/', name: 'Presentation', component: Presentation },
+    { path: '/', name: 'PageJoueurs', component: PageJoueurs },
   ]
 })
 
